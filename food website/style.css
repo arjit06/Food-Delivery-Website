@@ -1,0 +1,379 @@
+/* css reset  */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+
+
+/* navbar styling  */
+nav::before {
+    content: "";
+    background: black;
+    opacity: 0.6;
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    z-index: -1;
+}
+
+.navbar {
+    display: flex;
+    font-family: 'Bree Serif', serif;
+    align-items: center;
+    top: 0;
+    position: sticky;
+}
+
+.navbar ul {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* list items styling  */
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    padding: 7px;
+    color: white;
+    font-size: 1.4rem;
+    margin: 16px;
+}
+
+.navbar ul li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 43px;
+}
+
+.bar {
+    width: 500px;
+}
+
+
+
+/* logo styling  */
+.logo img {
+    display: block;
+    border-radius: 70px;
+    width: 45px;
+    height: 45px;
+    margin: 12px 22px;
+    margin-left: 36px;
+    margin-top: 14px;
+}
+
+.logoname {
+    font-size: 1.7rem;
+    margin-right: 40px;
+    color: yellow;
+}
+
+
+
+/* home section styling */
+#home::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    background: url('/images/food\ bg\ 4.png') no-repeat;
+    z-index: -2;
+    top: 0px;
+    left: 0px;
+}
+
+
+#home {
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home p {
+    margin: 12px;
+}
+
+#home p#second {
+    margin-bottom: 26px;
+}
+
+.h1-primary {
+    color: rgb(208, 255, 0);
+    font-size: 3rem;
+    margin-bottom: 0px;
+}
+
+.btn {
+    background-color: brown;
+    color: white;
+    font-size: 1.2rem;
+    border: 2px solid white;
+    height: 40px;
+    width: 130px;
+    margin: 10px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: rgb(228, 227, 227);
+}
+
+
+
+/* services section styling  */
+#services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 #our-services {
+    color: black;
+}
+
+#services h1 {
+    font-size: 3rem;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+#services h2 {
+    font-size: 2rem;
+    margin: auto;
+    width: 200px;
+    margin-top: 20px;
+}
+
+h2#h2-catering {
+    font-size: 2rem;
+    margin: auto;
+    width: 130px;
+    margin-top: 20px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* cards */
+.food-delivery {
+    width: 400px;
+    height: 435px;
+    border: 3px solid black;
+    background-color: #f2f2f2;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 40px;
+}
+.food-delivery p {
+    font-size: 1.3rem;
+}
+
+.food-delivery img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+
+.catering {
+    width: 400px;
+    height: 435px;
+    border: 3px solid black;
+    background-color: #f2f2f2;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 40px;
+}
+.catering p{
+    font-size: 1.3rem;
+}
+
+.catering img {
+    display: block;
+    width: 190px;
+    height: 190px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.bulk-ordering {
+    width: 400px;
+    height: 435px;
+    border: 3px solid black;
+    background-color: #f2f2f2;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 40px;
+}
+.bulk-ordering p{
+    font-size: 1.3rem;
+}
+
+.bulk-ordering img {
+    display: block;
+    width: 210px;
+    height: 210px;
+    margin: auto;
+}
+
+
+
+
+/* about section styling  */
+#About::before {
+    margin-top: 30px;
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 350px;
+    background: url('/images/food\ bg2.png') no-repeat;
+    z-index: -1;
+
+}
+
+#About {
+
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+#About h1 {
+
+    font-size: 3rem;
+}
+
+.logos {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+
+.logos img {
+    width: 150px;
+    height: 150px;
+}
+
+#bercos {
+    width: 200px;
+    height: 90px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+/* contact us styling  */
+#Contact-us {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+
+}
+
+#Contact-us::before {
+    margin-top: 30px;
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 550px;
+    background: url('/images/contact\ us\ bg2.png') no-repeat;
+    opacity: 0.69;
+    z-index: -1;
+}
+
+#Contact-us h1 {
+    font-size: 3rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.row input {
+    display: block;
+    width: 400px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.row input::placeholder {
+    font-size: 1.1rem;
+}
+
+.row label {
+    font-size: 1.7rem;
+}
+
+.btn2 {
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+    border: 2px solid white;
+    height: 40px;
+    width: 130px;
+    margin: 15px;
+    margin-top: 10px;
+}
+
+.btn2:hover {
+    cursor: pointer;
+    color: rgb(228, 227, 227);
+
+}
+
+.row-button {
+    padding-top: 15px;
+    margin-left: 100px;
+}
+
+#Contact-us h1 {
+    margin-left: 100px;
+}
+
+footer {
+    background: black;
+    color: white;
+    padding: 0px 20px;
+    margin-top: 20px;
+    text-align: center;
+}
