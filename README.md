@@ -2,7 +2,6 @@
 
 Created a food delivery website using HTML and CSS. 
 
-url: http://127.0.0.1:5500/home.html#services 
 
 ![Screenshot (54)](https://user-images.githubusercontent.com/108218688/219884064-c920b5df-22b4-45d0-ac46-1282ca146c13.png)
 
